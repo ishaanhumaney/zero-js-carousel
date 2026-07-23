@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure CSS Image Carousel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="carousel-container">
+    <input type="radio" name="slider" id="slide-1" checked>
+    <input type="radio" name="slider" id="slide-2">
+    <input type="radio" name="slider" id="slide-3">
+    <input type="radio" name="slider" id="slide-4">
+    <div class="slides-wrapper">
+      <div class="slide">
+        <img src="https://picsum.photos/id/10/800/450" alt="Slide 1">
+        <span>Slide 1</span>
+      </div>
+      <div class="slide">
+        <img src="https://picsum.photos/id/16/800/450" alt="Slide 2">
+        <span>Slide 2</span>
+      </div>
+      <div class="slide">
+        <img src="https://picsum.photos/id/28/800/450" alt="Slide 3">
+        <span>Slide 3</span>
+      </div>
+      <div class="slide">
+        <img src="https://picsum.photos/id/54/800/450" alt="Slide 4">
+        <span>Slide 4</span>
+      </div>
+    </div>
+    <div class="controls nav-1">
+      <label for="slide-4" class="prev">&#10094;</label>
+      <label for="slide-2" class="next">&#10095;</label>
+    </div>
+    <div class="controls nav-2">
+      <label for="slide-1" class="prev">&#10094;</label>
+      <label for="slide-3" class="next">&#10095;</label>
+    </div>
+    <div class="controls nav-3">
+      <label for="slide-2" class="prev">&#10094;</label>
+      <label for="slide-4" class="next">&#10095;</label>
+    </div>
+    <div class="controls nav-4">
+      <label for="slide-3" class="prev">&#10094;</label>
+      <label for="slide-1" class="next">&#10095;</label>
+    </div>
+    <div class="thumbnails">
+      <label for="slide-1" class="thumb-btn"></label>
+      <label for="slide-2" class="thumb-btn"></label>
+      <label for="slide-3" class="thumb-btn"></label>
+      <label for="slide-4" class="thumb-btn"></label>
+    </div>
+  </div>
+</body>
+</html>
+
