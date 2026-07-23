@@ -50,7 +50,7 @@ You don't need Node.js, npm, or local terminal tooling to inspect or run this re
 zero-js-carousel/
 ├── .github/
 │   └── workflows/
-│       └── html-lint.yml    # Validates HTML structure on push
+│       └── lint.yml    # Validates HTML structure on push
 ├── .gitignore               # Excludes OS and editor junk files
 ├── index.html               # Main markup structure with state inputs[cite: 1]
 ├── style.css                # Layout styles and state transitions[cite: 1]
